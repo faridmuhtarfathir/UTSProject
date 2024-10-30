@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
         btnLogin.setOnClickListener {
             val username = etUsername.text.toString()
             val password = etPassword.text.toString()
-            if (username == "mahesa" && password == "1234") {
+            if (username == "faridmf" && password == "1999") {
                 // Login successful
                 Toast.makeText(this, "Login successful!", Toast.LENGTH_SHORT).show()
                 val intent = Intent(this@MainActivity, ListFoodActivity::class.java)

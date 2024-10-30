@@ -25,7 +25,7 @@
         android:id="@+id/tvFoodName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Food Name: Pancong lumer"
+        android:text="Food Name: TEA HAUS"
         android:textSize="18sp"
         android:layout_marginBottom="8dp"/>
 
@@ -34,7 +34,7 @@
         android:id="@+id/tvServings"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Number of Servings: 2 pax"
+        android:text="Number of Servings: "
         android:textSize="18sp"
         android:layout_marginBottom="8dp"/>
 
@@ -43,7 +43,7 @@
         android:id="@+id/tvOrderingName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ordering Name: Usep"
+        android:text="Ordering Name:"
         android:textSize="18sp"
         android:layout_marginBottom="8dp"/>
 
@@ -52,7 +52,7 @@
         android:id="@+id/tvNotes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Additional Notes: Tidak Pedas"
+        android:text="Additional Notes: "
         android:textSize="18sp"
         android:layout_marginBottom="16dp"/>
 
@@ -60,7 +60,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Thanks for your order and please wait for delivering by nearest courier"
+        android:text="Terima kasih atas pesanan Anda! Mohon tunggu, pesanan sedang dalam perjalanan melalui kurir terdekat"
         android:textStyle="bold"
         android:textSize="18sp"
         android:layout_marginBottom="8dp"/>

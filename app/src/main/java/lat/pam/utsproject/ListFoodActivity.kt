@@ -26,11 +26,14 @@ class ListFoodActivity : AppCompatActivity(), FoodAdapter.OnItemClickListener {
 
         // Menyiapkan data makanan
         foodList = listOf(
-            Food("Original", "Kue pancong Betawi, berbahan tepung beras, kelapa, dan santan, bertekstur renyah dan gurih manis", R.drawable.original),
-            Food("Cokelat", "memiliki tekstur renyah lembut dengan perpaduan rasa gurih dan manis cokelat", R.drawable.cokelat),
-            Food("Oreo", "bertekstur renyah lembut dengan perpaduan rasa gurih dan manis khas biskuit Oreo", R.drawable.oreo),
-            Food("Matcha", "bertekstur renyah lembut dengan perpaduan rasa gurih dan manis beraroma teh hijau", R.drawable.matcha),
-        )
+            Food("Original", "Teh original ini kaya rasa dan aroma alami tanpa tambahan apa pun, memberikan sensasi tenang dan menyegarkan.", R.drawable.tehori),
+            Food("Teh Tarik", "Teh hitam dicampur susu yang dituang berulang hingga berbusa, menghasilkan rasa manis dan creamy khas Malaysia dan Indonesia.", R.drawable.tehtarik),
+            Food("Green Tea", "Teh hijau tanpa susu yang segar dan ringan, dibuat dari daun teh muda, memiliki aroma khas dan cita rasa agak pahit dengan sedikit rasa manis alami.", R.drawable.ijo),
+            Food("Thai Tea", "Minuman teh hitam khas Thailand dengan campuran susu kental manis dan gula, berwarna oranye dan bercita rasa manis, creamy, serta sedikit rempah.", R.drawable.thai),
+            Food("Lychee Tea", "Teh hitam atau hijau yang dicampur dengan sirup leci atau buah leci, menciptakan rasa manis dan segar dengan aroma buah leci yang khas.", R.drawable.leci),
+
+
+            )
 
         adapter = FoodAdapter(
             foodList,

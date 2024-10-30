@@ -8,7 +8,7 @@
         android:id="@+id/foodImage"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:src="@drawable/original"
+        android:src="@drawable/tehori"
         android:layout_marginEnd="8dp"/>
 
     <!-- Nama dan Deskripsi Makanan -->
